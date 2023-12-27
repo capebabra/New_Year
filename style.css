@@ -193,7 +193,7 @@ body{
         font-size: 14px;
     }
     .container__content{
-     width: 360px;   
+     width: 300px;   
      padding: 10px 15px;
     }
     .content__text{
@@ -229,45 +229,6 @@ body{
     }
     .container__content{
      width: 360px;   
-     padding: 10px 15px;
-     margin-top: 20px;
-    }
-    .content__text{
-        padding-bottom: 35px;
-        font-size: 18px;
-    }
-    .content__img{
-        height: 300px;
-    }
-    .heading__cheers{
-        font-size: 35px;
-    }
-}
-@media (max-width: 560px){
-    .content-heading{
-        padding-bottom: 20px;
-    }
-    .content-header{
-        padding: 10px 10px;
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 40px;
-    }
-    .content__logo{
-        width: 80px;
-        height: 90px;
-        position: relative;
-        left: 0.2vh;
-    }
-    .content__info{
-        display: flex;
-        gap: 20px;
-    }
-    .info{
-        font-size: 14px;
-    }
-    .container__content{
-     width: 430px;   
      padding: 10px 15px;
      margin-top: 20px;
     }
