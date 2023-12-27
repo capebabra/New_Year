@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/app.js" defer></script>
+</head>
+<body>
+    <div class="main">
+        <img class="main__background" src="img/bg_nw14.jpg" draggable="false" alt="background">
+        <div class="container">
+            <div class="container__content">
+                <header class="content-header">
+                    <img src="/img/khadicha.PNG" alt="logo" class="content__logo">
+                    <ul class="content__info">
+                        <li>
+                            <a class="info" href="#" onclick="playMusic('/music/photograph.mp3')">photograph</a>
+                        </li>
+                        <li>
+                            <a class="info" href="#" onclick="playMusic('/music/last_christmas.mp3')">last christmas</a>
+                        </li>
+                        <li>
+                            <a class="info" href="#" onclick="playMusic('/music/Untill i found u.mp3')">untill i</a>
+                        </li>
+                    </ul>
+                </header>
+                <div class="content-heading">
+                    <h4 class="heading__cheers">HAPPY         NEW         YEAR</h4>
+                </div>
+                <p class="content__text">Dear Khadicha,<br>
+                    <br>
+                    As we step into the new year, I wish you lots of happiness and success. May your days ahead be filled with joy and inspiration.<br><br>
+
+                    In the upcoming year, I hope we share many laughter-filled moments and create beautiful memories together. May your life be woven with threads of happiness, forming a masterpiece of wonderful experiences.<br><br>
+                    
+                    May your dreams soar high, and may you encounter pleasant surprises and opportunities on your journey.<br><br>
+                    
+                    Cheers to the magic of the New Year, bringing fresh starts and endless possibilities.<br><br>
+                    
+                    I want you to know how special you are. Your presence, your eyes that light up, and the way you laugh make you truly remarkable. Spending time with you is a treasure, and every moment together adds to the love in my heart. Choosing to be with someone as wonderful as you is a decision I'll always cherish.   <br><br>         
+                    <br>Warmest wishes,
+                    <br>Rashid
+                </p>
+                <img src="/img/happy-new4.jpg" alt="Happy New Year" class="content__img">
+            </div>
+        </div>
+    </div>
+    <audio id="backgroundMusic" loop>
+        <!-- Музыка для первой ссылки -->
+        <source id="music1" src="/music/photograph.mp3" type="audio/mp3">
+        <!-- Музыка для второй ссылки -->
+        <source id="music2" src="/music/last_christmas.mp3" type="audio/mp3">
+        <!-- Музыка для третьей ссылки -->
+        <source id="music3" src="/music/Untill i found u.mp3" type="audio/mp3">
+    </audio>
+</body>
+</html>
