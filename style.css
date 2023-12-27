@@ -108,6 +108,8 @@ body{
     padding-top: 20px;
 }
 .content__logo{
+    width: 150px;
+    height: 160px;
     position: relative;
     left: -30px;
 }
