@@ -100,13 +100,16 @@
 }
 .content__logo{
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
 }
 .info{
     text-decoration: none;
     font-size: 25px;
-    color: black;
+    background: linear-gradient(90deg, #ff5733, #2d5883); /* Градиентный фон */
+    -webkit-background-clip: text; /* Применение фона только к тексту вебкит-браузерах */
+    color: transparent; /* Делаем текст невидимым */
+    cursor: pointer; /* Добавляем курсор указателя, чтобы пользователи знали, что это интерактивный элемент */
 }
 .content__info{
     display: flex;
@@ -135,6 +138,10 @@
     }
     .info{
         font-size: 14px;
+        background: linear-gradient(90deg, #ff5733, #33ff57); /* Градиентный фон */
+        -webkit-background-clip: text; /* Применение фона только к тексту вебкит-браузерах */
+        color: transparent; /* Делаем текст невидимым */
+        cursor: pointer; /* Добавляем курсор указателя, чтобы пользователи знали, что это интерактивный элемент */
     }
     .container__content{
      width: 360px;   
