@@ -84,12 +84,12 @@ body{
     padding: 10px 15px;
 }
 .heading__cheers{
-    font-size: 60px;
+    font-size: 40px;
     font-family: DancingS;
     font-weight: bold;
 }
 .content__text {
-    font-size: 28px;
+    font-size: 20px;
     line-height: 1.4; 
     font-family: Roboto;
     padding: 10px 20px;
